@@ -14,6 +14,22 @@ This repository contains a Python application for analyzing and predicting crypt
 - **Buy/Sell Recommendation**: Provides simple buy/sell recommendations based on SMA crossover strategies.
 
 ## Installation
+### CMD CODE
+```
+pip install streamlit yfinance plotly scikit-learn matplotlib requests joblib
+```
+### CLONING
+```
+git clone https://github.com/yourusername/crypto-buy-prediction-app.git
+```
+```
+cd crypto-buy-prediction-app
+```
+
+# RUN APPLICATION
+``` 
+python -m streamlit run app.py
+```
 
 ### Prerequisites
 
@@ -21,3 +37,11 @@ Ensure you have Python installed (version 3.6 or later). You can check your Pyth
 
 ```bash
 python --version
+```
+
+### Customization
+
+- **Acknowledgments Section**: The new section acknowledges that the project was based on data and ideas generated through interactions with ChatGPT.
+- **Repository Link**: As before, ensure you replace `https://github.com/yourusername/crypto-buy-prediction-app.git` with the actual URL of your repository.
+
+This update provides proper credit for the ideas and data sources. Let me know if you need any further adjustments!
